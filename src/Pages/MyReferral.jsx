@@ -19,9 +19,9 @@ const MyReferral = () => {
   return (
     <div className="bg-[#000000]">
       <div className="min-h-screen flex flex-col  py-20 gap-12 w-[95%] md:w-[80%] mx-auto">
-        <p className="text-center font-primary text-6xl text-white font-bold capitalize underline justify-center">
+       <!-- <p className="text-center font-primary text-6xl text-white font-bold capitalize underline justify-center">
           My refarel page
-        </p>
+        </p> -->
         <div id="embed-here"></div>
         <div className="text-center ">
           <Button
