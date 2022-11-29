@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/*" element={<NotFound />} />
-        <Route path={`/thankyou/:userId`} element={<MyReferral />} />
+        <Route path={`/thankyou`} element={<MyReferral />} />
       </Routes>
     </BrowserRouter>
   );

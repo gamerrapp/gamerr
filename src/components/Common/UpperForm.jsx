@@ -50,7 +50,7 @@ const UpperForm = () => {
                 });
 
                 // navigate(`/referral/${email}`, "_blank");
-                window.open(`/thankyou/${email}`, "_blank");
+                window.open(`/thankyou?uname=${email}`, "_blank");
               } else {
                 toast.error("this email already registered", {
                   position: "top-right",
